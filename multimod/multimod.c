@@ -7,7 +7,6 @@ uint64_t mod(uint64_t a, uint64_t m) {
     // printf("(mod1)a=%d\n", a);
     return a;
   } else {
-    uint64_t mm = m;
     for (int i = 0; i >= 0;) {
       while (a >= (m << 1)) {
         m <<= 1;
